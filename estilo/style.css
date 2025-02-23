@@ -6,7 +6,7 @@
 }
 :root{
     --cor1:rgb(79, 148, 244);
-    --cor2:#0163E0;
+    --cor2:#2669c1;
     --cor3:#1E60B6;
     --cor4:#2E578B;
     --cor5:#304561;
@@ -21,24 +21,28 @@
 }
 
 body{
-    background-color: var(--cor1);
+    background-color: var(--cor5);
 }
 #icone_tec{
     width: 50px;
 }
 .botoes{
     padding: 15px;
-    background-color: var(--cor1);
     border: 0px;
     border-radius: 30px;
-    color: white;
     font: var(--fonte3);
+    background-color: var(--cor1);
+    color: white;
 }
 .centro{
     text-align: center;
 }
 .imagem{
     background-color: white;
+}
+.conteiner{
+    margin: auto;
+    max-width: 900px;
 }
 
 /*Cabeçalho*/
@@ -70,25 +74,28 @@ ul{
     
 }
 
+/*Sobre Tecmit e Projetos*/
 aside{
     color: white;
-    background-color: var(--cor2);
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.748) , rgba(123, 0, 255, 0.696), var(--cor1), rgb(33, 222, 255));
     text-align: center;
     min-height: var(--tam1);
 }
 aside h2{
     font: var(--fonte5);
     padding: 10px 0px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.367);
 }
 aside p{
     text-align: justify;
     padding: 10px;
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     display: inline-block;
     width: 300px;
 
 }
 
+/*Artigo ou frase*/
 article{
     height: 40vh;
     text-align: center;
@@ -104,7 +111,7 @@ article p{
 
 footer{
     color: white;
-    background-color: black;
+    background-color: var(--cor5);
     padding: 5px;
     font: normal 1em verdana, helvetica, sans-serif;
     text-align: center;
