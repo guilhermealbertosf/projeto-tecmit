@@ -37,6 +37,9 @@ body{
 .centro{
     text-align: center;
 }
+.imagem{
+    background-color: white;
+}
 
 /*Cabeçalho*/
 
@@ -54,12 +57,17 @@ main{
 }
 section{
     text-align: justify;
-    padding: 40px 15vw;
+    padding: 40px 10px;
     min-height: var(--tam1);
 }
 section  h2{
     font: var(--fonte2);
     text-align: left;
+    padding-bottom: 20px;
+}
+ul{
+    padding: 10px;
+    
 }
 
 aside{
@@ -70,6 +78,7 @@ aside{
 }
 aside h2{
     font: var(--fonte5);
+    padding: 10px 0px;
 }
 aside p{
     text-align: justify;
@@ -83,10 +92,12 @@ aside p{
 article{
     height: 40vh;
     text-align: center;
-    padding: 50px;
+    padding: 35px;
     font: var(--fonte4);
     line-height: 40px;
-
+}
+article p{
+    font: 2vw;
 }
 
 /*Rodapé*/
@@ -94,9 +105,9 @@ article{
 footer{
     color: white;
     background-color: black;
-    padding: 50px;
-    font: var(--fonte4);
-    height: 50vh;
+    padding: 5px;
+    font: normal 1em verdana, helvetica, sans-serif;
+    text-align: center;
 }
 footer > p{
     line-height: 70px;
