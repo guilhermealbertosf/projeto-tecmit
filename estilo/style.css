@@ -116,6 +116,9 @@ footer{
     font: normal 1em verdana, helvetica, sans-serif;
     text-align: center;
 }
-footer > p{
+footer p{
     line-height: 70px;
+}
+footer a{
+    color: white;
 }
