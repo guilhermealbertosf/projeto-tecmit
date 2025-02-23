@@ -23,6 +23,9 @@
 body{
     background-color: var(--cor5);
 }
+#subtitulo{
+    font-size: 1.2em;
+}
 #icone_tec{
     width: 50px;
 }
@@ -34,6 +37,17 @@ body{
     background-color: var(--cor1);
     color: white;
 }
+.botoes:hover{
+    background-color: var(--cor2);
+}
+.botoes:active{
+    background-color: var(--cor5);
+}
+.destaque{
+    font-family: arial;
+    font-size: 1.5em;
+    color: var(--cor5);
+}
 .centro{
     text-align: center;
 }
@@ -43,6 +57,9 @@ body{
 .conteiner{
     margin: auto;
     max-width: 900px;
+}
+#tecmit_blue{
+    background-color: #004AAD;
 }
 
 /*Cabeçalho*/
@@ -85,26 +102,35 @@ aside h2{
     font: var(--fonte5);
     padding: 10px 0px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.367);
+    background-color: var(--cor3);
 }
 aside p{
+    box-shadow: -2px 2px 0px rgba(0, 0, 0, 0.274);
     text-align: justify;
     padding: 10px;
-    background-color: var(--cor2);
+    color: black;
+    background-color: white;
     display: inline-block;
-    width: 300px;
+    width: 90%;
+    max-width: 400px;
 
+}
+aside#projetos{
+   background: linear-gradient(45deg, rgb(223, 173, 230), rgb(0, 183, 255));
 }
 
 /*Artigo ou frase*/
 article{
-    height: 40vh;
+    min-height: 40vh;
     text-align: center;
     padding: 35px;
     font: var(--fonte4);
     line-height: 40px;
 }
 article p{
-    font: 2vw;
+    margin-top: 1em;
+    font: bold 1.5em arial, verdana, helvetica, sans-serif;
+    color: var(--cor5);
 }
 
 /*Rodapé*/
