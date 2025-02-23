@@ -22,6 +22,7 @@
 
 body{
     background-color: var(--cor5);
+    position: relative;
 }
 #subtitulo{
     font-size: 1.2em;
@@ -64,17 +65,15 @@ body{
 /*Cabeçalho*/
 
 header{
-    background-color: white;
+    background-color: var(--cor5);
     font-family: var(--fonte1);
-    color: var(--cor5);
+    height: 10px;
 }
 
 /*Principal*/
 
 main{
     background-color: white;
-    margin-top: 10px;
-    
 }
 section{
     padding: 40px 10px;
