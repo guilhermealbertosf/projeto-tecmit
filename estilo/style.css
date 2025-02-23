@@ -17,7 +17,7 @@
     --fonte4: bold 1.5em Arial;
     --fonte5: bold 2em courier;
 
-    --tam1: 50vh;
+    --tam1: 500px;
 }
 
 body{
@@ -47,12 +47,11 @@ body{
     font-family: arial;
     font-size: 1.5em;
     color: var(--cor5);
+    display: block;
+    text-align: left;
 }
 .centro{
     text-align: center;
-}
-.imagem{
-    background-color: white;
 }
 .conteiner{
     margin: auto;
@@ -75,9 +74,9 @@ header{
 main{
     background-color: white;
     margin-top: 10px;
+    
 }
 section{
-    text-align: justify;
     padding: 40px 10px;
     min-height: var(--tam1);
 }
@@ -85,10 +84,11 @@ section  h2{
     font: var(--fonte2);
     text-align: left;
     padding-bottom: 20px;
+    color: var(--cor5);
 }
 ul{
     padding: 10px;
-    
+    margin: 20px;
 }
 
 /*Sobre Tecmit e Projetos*/
@@ -96,7 +96,6 @@ aside{
     color: white;
     background: linear-gradient(45deg, rgba(255, 0, 0, 0.748) , rgba(123, 0, 255, 0.696), var(--cor1), rgb(33, 222, 255));
     text-align: center;
-    min-height: var(--tam1);
 }
 aside h2{
     font: var(--fonte5);
@@ -105,7 +104,6 @@ aside h2{
     background-color: var(--cor3);
 }
 aside p{
-    box-shadow: -2px 2px 0px rgba(0, 0, 0, 0.274);
     text-align: justify;
     padding: 10px;
     color: black;
@@ -113,7 +111,7 @@ aside p{
     display: inline-block;
     width: 90%;
     max-width: 400px;
-
+    font-size: 1.2em;
 }
 aside#projetos{
    background: linear-gradient(45deg, rgb(223, 173, 230), rgb(0, 183, 255));

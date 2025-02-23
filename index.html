@@ -22,7 +22,11 @@
 
                 </div>
                 <p class="centro">
-                    <img src="midia/imagens/pc_fundo-250px.png" alt="imagem de um pc tecmit">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="midia/imagens/pc_fundo-250px.png" type="image/png">
+
+                        <img src="midia/imagens/originais/pc_fundo.png" alt="imagem do pc da tecmit">
+                    </picture>
                 </p>
                 <p class="centro">
                     <input class="botoes" id="botao1" type="button" value="Saiba mais" onclick="botao(1)">
@@ -51,7 +55,6 @@
             <div class="conteiner">
                 <h2>Objetivos <img id="icone_tec" src="midia/imagens/tec_icon-100px.png" alt="icone tec"></h2>
                 <p>
-                    Objetivos da Tecmit
                     Desenvolver soluções tecnológicas inovadoras para otimizar processos empresariais e sociais.
                     Promover a digitalização sustentável, garantindo que a tecnologia seja acessível e ambientalmente responsável.
                     Investir em pesquisa e desenvolvimento, mantendo-se na vanguarda das tendências tecnológicas.
@@ -72,10 +75,10 @@
         </section>
         <aside id="projetos">
             <h2>Projetos</h2>
-            <p class="centro imagem">
+            <p class="centro ">
                 <img src="midia/imagens/tecmit_white-200px.JPG" alt="logo da tecmit">
             </p>
-            <p class="centro imagem" id="tecmit_blue">
+            <p class="centro " id="tecmit_blue">
                 <img src="midia/imagens/tecmit_blue-200px.JPG" alt="logo da tecmit">
             </p>
         </aside>
