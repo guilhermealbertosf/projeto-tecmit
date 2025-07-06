@@ -3,54 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="midia/imagens/icone-tecmit-100px.png" type="image/x-icon">
+    <link rel="shortcut icon" href="icone.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
     <title>TecMit</title>
 </head>
 <body>
     <header>
+        <h1 class="conteudo">Projetos e Inovações</h1>
+        <p class="conteudo" id="subtitulo">
+            Explorando o Futuro: Soluções Inovadoras para um Mundo em Evolução.
+        </p>
     </header>
     <main>
         <section> 
-                <div class="conteiner">
-                    <h2 class="conteudo">Projetos e Inovações</h2>
-                    <p class="conteudo" id="subtitulo">
-                        Explorando o Futuro: Soluções Inovadoras para um Mundo em Evolução.
-                    </p>
-                </div>
-                <p class="centro">
-                    <picture>
-                        <source media="(max-width: 600px)" srcset="midia/imagens/pc_fundo-250px.png" type="image/png">
+            <p class="centro">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="midia/imagens/pc_fundo-250px.png" type="image/png">
 
-                        <img src="midia/imagens/originais/pc_fundo.png" alt="imagem do pc da tecmit">
-                    </picture>
-                </p>
-                <p class="centro">
-                    <input class="botoes" id="botao1" type="button" value="Saiba mais" onclick="botao(1)">
-                </p>
+                    <img src="midia/imagens/originais/pc_fundo.png" alt="imagem do pc da tecmit">
+                </picture>
+            </p>
+            <p class="centro">
+                <input class="botoes" id="botao1" type="button" value="Saiba mais" onclick="window.location = 'paginas/saiba-mais.html' ">
+            </p>
         </section>
-        <aside>
-            <h2>Sobre a TecMit</h2>
-                <p>
-                    <strong class="destaque">O Impacto da Tecnologia na Sociedade</strong> <br>
-                    A tecnologia tem sido a força motriz por trás da evolução da sociedade, transformando a maneira como vivemos, trabalhamos e nos comunicamos. Desde a automação de processos até a inteligência artificial, as inovações tecnológicas impulsionam o desenvolvimento econômico e melhoram a qualidade de vida.
+        <h2 onclick="exibir_conteudo('sobre', 'flex')">Sobre a TecMit</h2>
+        <aside id="sobre">
+            <p>
+                <strong class="destaque">O Impacto da Tecnologia na Sociedade</strong> <br>
+                A tecnologia tem sido a força motriz por trás da evolução da sociedade, transformando a maneira como vivemos, trabalhamos e nos comunicamos. Desde a automação de processos até a inteligência artificial, as inovações tecnológicas impulsionam o desenvolvimento econômico e melhoram a qualidade de vida.
 
-                    Nos últimos anos, a conectividade digital revolucionou os negócios e a educação, proporcionando acesso instantâneo à informação e permitindo a colaboração global. Além disso, novas tecnologias sustentáveis têm surgido para reduzir o impacto ambiental, como a energia renovável e a mobilidade elétrica.
+                Nos últimos anos, a conectividade digital revolucionou os negócios e a educação, proporcionando acesso instantâneo à informação e permitindo a colaboração global. Além disso, novas tecnologias sustentáveis têm surgido para reduzir o impacto ambiental, como a energia renovável e a mobilidade elétrica.
 
-                    Empresas de tecnologia desempenham um papel crucial nesse cenário, criando soluções inovadoras para desafios modernos. A Tecmit, por exemplo, tem se destacado ao desenvolver ferramentas que otimizam a eficiência empresarial e promovem a digitalização de processos. O avanço tecnológico continua a redefinir o futuro, tornando-se essencial para o progresso sustentável e a inclusão digital.
-                </p>
-                <p>
-                    <strong class="destaque">Tecmit: Inovação e Transformação Digital</strong> <br>
-                    A Tecmit é uma empresa de tecnologia dedicada a desenvolver soluções inovadoras que impulsionam a transformação digital. Com um foco em eficiência e sustentabilidade, a empresa oferece produtos e serviços que atendem às necessidades de diversos setores, como automação empresarial, inteligência artificial e segurança cibernética.
+                Empresas de tecnologia desempenham um papel crucial nesse cenário, criando soluções inovadoras para desafios modernos. A Tecmit, por exemplo, tem se destacado ao desenvolver ferramentas que otimizam a eficiência empresarial e promovem a digitalização de processos. O avanço tecnológico continua a redefinir o futuro, tornando-se essencial para o progresso sustentável e a inclusão digital.
+            </p>
+            <p>
+                <strong class="destaque">Tecmit: Inovação e Transformação Digital</strong> <br>
+                A Tecmit é uma empresa de tecnologia dedicada a desenvolver soluções inovadoras que impulsionam a transformação digital. Com um foco em eficiência e sustentabilidade, a empresa oferece produtos e serviços que atendem às necessidades de diversos setores, como automação empresarial, inteligência artificial e segurança cibernética.
 
-                    O compromisso da Tecmit é criar tecnologias acessíveis e escaláveis, permitindo que empresas e indivíduos se beneficiem da digitalização. Seus produtos incluem plataformas de análise de dados, sistemas de gestão inteligente e ferramentas de comunicação avançada, sempre com um olhar voltado para a inovação sustentável.
+                O compromisso da Tecmit é criar tecnologias acessíveis e escaláveis, permitindo que empresas e indivíduos se beneficiem da digitalização. Seus produtos incluem plataformas de análise de dados, sistemas de gestão inteligente e ferramentas de comunicação avançada, sempre com um olhar voltado para a inovação sustentável.
 
-                    Além disso, a empresa investe constantemente em pesquisa e desenvolvimento, garantindo que suas soluções estejam alinhadas às demandas do mercado global. Com uma equipe altamente qualificada e uma visão futurista, a Tecmit se posiciona como uma referência no setor tecnológico, promovendo um impacto positivo na economia digital.
-                </p>
+                Além disso, a empresa investe constantemente em pesquisa e desenvolvimento, garantindo que suas soluções estejam alinhadas às demandas do mercado global. Com uma equipe altamente qualificada e uma visão futurista, a Tecmit se posiciona como uma referência no setor tecnológico, promovendo um impacto positivo na economia digital.
+            </p>
         </aside>
-        <section>
+        <h2 onclick="exibir_conteudo('objetivos', 'block')">Objetivos</h2>
+        <section id="objetivos">
             <div class="conteiner">
-                <h2>Objetivos <img id="icone_tec" src="midia/imagens/tec_icon-100px.png" alt="icone tec"></h2>
+                
                 <p>
                     Desenvolver soluções tecnológicas inovadoras para otimizar processos empresariais e sociais.
                     Promover a digitalização sustentável, garantindo que a tecnologia seja acessível e ambientalmente responsável.
@@ -67,11 +66,11 @@
                 </ul>
             </div>
             <p class="centro">
-                <input class="botoes" id="botao2" type="button" value="Saiba Mais" onclick="botao(2)">
+                <input class="botoes" id="botao2" type="button" value="Saiba Mais" onclick="window.location = 'paginas/saiba-mais.html' ">
             </p>
         </section>
+        <h2 onclick="exibir_conteudo('projetos', 'flex')" >Projetos</h2>
         <aside id="projetos">
-            <h2>Projetos</h2>
             <p class="centro ">
                 <img src="midia/imagens/tecmit_white-200px.JPG" alt="logo da tecmit">
             </p>
@@ -81,9 +80,7 @@
         </aside>
         <article>
             <p>
-                <strong>
-                    "Ambição e conquista sem contribuição não tem significado. E qual é a sua contribuição?"
-                </strong>
+                "Ambição e conquista sem contribuição não tem significado. E qual é a sua contribuição?"
                 <br>
                 (O clube do imperador)
             </p>
